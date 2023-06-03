@@ -10,15 +10,23 @@
  */
 public class GameController {
 
+    /**
+     * Creates new game object to hold hold game state
+     */
     private Game game = new Game();
 
+    /**
+     * Starts view for when playing a game
+     */
     public void startView() {
         // insert correct parameters
         GameView gameView = new GameView(0,0,0, game.getPlayerHand(), "Diamonds");
-        gameView.initializeView(gameView);
+        //gameView.initializeView(gameView);
     }
 
-
+    /**
+     * Adds a card to the trick
+     */
     public void playCard() {
         // add card to trick
     }

@@ -100,7 +100,7 @@ public class Game {
 
     /**
      * Sets the deck to new deck
-     * @param deck
+     * @param deck new deck object to be set as deck
      */
     public void setDeck(Deck deck) {
         this.deck = deck;
